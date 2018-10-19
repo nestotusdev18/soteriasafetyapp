@@ -93,7 +93,7 @@ namespace Soteria.DataComponents.Repository
 
         public List<BathroomSummaryLog> GetBathroomSummaryLog(SearchCriteria SearchCriteria)
         {
-            return Connection.Query<BathroomSummaryLog>("[GetBathroomSummaryLog]",
+            return Connection.Query<BathroomSummaryLog>("[GetBathroomSummaryLogTest]",
                 new
                 {
                     SchoolID = SearchCriteria.SchoolId,
