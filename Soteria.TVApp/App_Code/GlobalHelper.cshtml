@@ -1,0 +1,102 @@
+﻿@helper LayoutHeader(string Activity, string Title)
+{
+<div class="page-header-inner ">
+	<div class="page-logo">
+		<a href="javascript:;">
+			<img src="~/Content/assets/layouts/layout/img/logo_small.png" alt="logo" class="logo-default" />
+		</a>
+		<div class="menu-toggler sidebar-toggler">
+			<span></span>
+		</div>
+	</div>
+	<a href="javascript:;" class="menu-toggler responsive-toggler" data-toggle="collapse" data-target=".navbar-collapse">
+		<span></span>
+	</a>
+	<div class="top-menu">
+		<ul class="nav navbar-nav pull-right">
+			<li class="dropdown dropdown-user">
+				<a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+					<img alt="" class="img-circle" src="~/Content/assets/layouts/layout/img/generic_avatar.png" />
+					<span class="username username-hide-on-mobile"> @Title </span>
+					<i class="fa fa-angle-down"></i>
+				</a>
+				  <ul class="dropdown-menu dropdown-menu-default">
+					<li>
+						<a href="javascript:;" onclick="Dashboard.FeaturePending()">
+							<i class="icon-user"></i> My Profile </a>
+					</li>
+
+					<li class="divider"> </li>
+					<li>
+						<a href="javascript:;" onclick=@Activity>
+							<i class="icon-key"></i> Log Out </a>
+					</li>
+				</ul>
+			</li>
+			<li class="dropdown dropdown-quick-sidebar-toggler">
+				<a href="javascript:;" onclick=@Activity class="dropdown-toggle">
+					<i class="icon-logout"></i>
+				</a>
+			</li>
+		</ul>
+	</div>
+</div>
+}
+
+@helper LeftMenu(string Activity, string Title, string Icon,  string selected)
+{
+<li class="nav-item start active">
+	<a href="javascript:;" onclick=@Activity class="nav-link nav-toggle">
+		<i class='@string.Format(Icon)'></i>
+		<span class="title">@Title</span>
+		<span class='@string.Format(selected)'></span>
+		<span class="arrow"></span>
+	</a>
+</li>
+}
+
+@helper DashboardButton(string Activity, string Title, string Icon, string Color)
+{
+	<a class="m-nav-grid__item" onclick=@Activity href="#">
+		<i class='@string.Format("m-nav-grid__icon {0} m--font-{1}", Icon, Color)'></i>
+		<span class="m-nav-grid__text">@Title</span>
+	</a>
+}
+
+@helper PortletHead(string Activity, string Title, string Icon, int customIcon=0)
+{
+<div class="portlet-title">
+		<div class="caption">
+			<i class='@string.Format(Icon)'></i>@Title</div>
+		<div class="tools">
+			<a href="javascript:;" class="collapse"></a>
+			
+		@{
+			if(customIcon>0){
+				
+				<a href="javascript:;" class="reload"></a>
+				<a href="javascript:;" class="" onclick="Dashboard.LoadDashboard()" style="color:#ffffff;font-size: 16px;opacity: 0.8;"><i class="fa fa-home"></i></a>
+			}
+		}
+		</div>
+</div>
+}  
+
+@helper PortletContent(string Activity, string Title, string Icon, string ActionTitle, string Col="col-md-3")
+{
+
+<div class="@string.Format(Col)">
+	<!-- BEGIN WIDGET THUMB -->
+	<div class="widget-thumb widget-bg-color-white text-uppercase margin-bottom-20 bordered">
+		<!--h4 class="widget-thumb-heading">@Title</h4-->
+		<div class="widget-thumb-wrap">
+			<i class='@string.Format(Icon)'></i>
+			<div class="widget-thumb-body">
+				<a href="javascript:;" onclick=@Activity><span class="widget-thumb-body-stat" style="font-size:15px !important; ">@ActionTitle</span></a>
+			</div>
+		</div>
+	</div>
+</div>
+	<!-- END WIDGET THUMB -->
+}  
+

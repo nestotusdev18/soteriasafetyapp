@@ -16,16 +16,36 @@ namespace Soteria.TVApp.Controllers.View
         [Route("dashboard")]
         public ActionResult Index([System.Web.Http.FromBody] RecordRequestPayload payload, SearchCriteria searchCriteria)
         {
-            ViewBag.UserId = searchCriteria.UserId;
-            ViewBag.SchoolId = searchCriteria.SchoolId;
-            ViewBag.SchoolCode = searchCriteria.SchoolCode;
             ApplicationUser userSession = (ApplicationUser)Session["UserSession"];
+            ViewBag.Title = userSession.SchoolName;
+            ViewBag.UserName = userSession.UserName;
+            ViewBag.UserID = userSession.UserID;
+            ViewBag.SchoolID = userSession.SchoolID;
+            ViewBag.SchoolCode = userSession.SchoolCode;
+            ViewBag.SchoolName = userSession.SchoolName;
+            ViewBag.UserSessionData = userSession;
             RoleType RoleName = (RoleType)Enum.Parse(typeof(RoleType), userSession.RoleName);
             ViewBag.RoleName = RoleName;
             return PartialView("Dashboard");
         }
 
+        [HttpPost]
+        [Route("checkpointLogActivities")]
+        public ActionResult CheckpointLogActivities([System.Web.Http.FromBody] RecordRequestPayload payload, SearchCriteria searchCriteria)
+        {
 
+            ApplicationUser userSession = (ApplicationUser)Session["UserSession"];
+            ViewBag.Title = userSession.SchoolName;
+            ViewBag.UserName = userSession.UserName;
+            ViewBag.UserID = userSession.UserID;
+            ViewBag.SchoolID = userSession.SchoolID;
+            ViewBag.SchoolCode = userSession.SchoolCode;
+            ViewBag.SchoolName = userSession.SchoolName;
+            ViewBag.UserSessionData = userSession;
+            RoleType RoleName = (RoleType)Enum.Parse(typeof(RoleType), userSession.RoleName);
+            ViewBag.RoleName = RoleName;
+            return PartialView("CheckpointLogActivities");
+        }
 
     }
 }

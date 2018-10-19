@@ -3,7 +3,6 @@
         timeago().render($(ctrl));
     },
     InitiateAjaxRequest: function InitiateAjaxRequest(URL, Type, Params, ContentType) {
-		console.log(URL);
         var headerToken = $('.hdnHeaderToken').val();
         var ajaxResponse = {
             IsSuccess: false,

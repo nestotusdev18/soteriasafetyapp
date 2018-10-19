@@ -20,20 +20,7 @@
         $('.mainView__content').html(ajaxResponse.response);
         $('#hdnUserId').val(UserId);
     },
-	LoadBathroomVisit: function LoadBathroomVisit() {
-        var ajaxResponse;
-		var UserId = parseInt($('#hdnUserId').val());
-        var params = {
-            UserId: UserId,
-        }
-        ajaxResponse = Global.InitiateAjaxRequest("/view/dashboard", "Post", params);
-        $('.mainView__content').html('');
-        $('.mainView__content').html(ajaxResponse.response);
-        $('#hdnUserId').val(UserId);
-    },
-	
-	 LoadTVApp: function LoadTVApp() {
-		/*
+	LoadCheckpointLogActivities: function LoadCheckpointLogActivities() {
         var ajaxResponse;
 		var UserId = parseInt($('#hdnUserId').val());
 		var SchoolId = parseInt($('#hdnSchoolId').val());
@@ -43,11 +30,17 @@
 			SchoolId: SchoolId,
 			SchoolCode: SchoolCode,
         }
-        ajaxResponse = Global.InitiateAjaxRequest("/view/TVAppDashboard", "Post", params);
+        ajaxResponse = Global.InitiateAjaxRequest("/view/checkpointLogActivities", "Post", params);
         $('.mainView__content').html('');
         $('.mainView__content').html(ajaxResponse.response);
-        $('#hdnUserId').val(UserId);*/
+        $('#hdnUserId').val(UserId);
     },
+	LoadSchoolDashboard: function LoadSchoolDashboard() {
+		var SchoolId = parseInt($('#hdnSchoolId').val());
+		url = 'AppDashboard?SchoolId='+SchoolId;
+		window.open(url, '_blank');
+    }
+	
 	
 }
 

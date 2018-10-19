@@ -1041,6 +1041,7 @@
     <Content Include="Content\assets\global\plugins\socicon\font\socicon.woff" />
     <Content Include="Content\assets\global\plugins\socicon\font\socicon.woff2" />
     <Content Include="Content\assets\global\plugins\socicon\font\socicond41d.eot" />
+    <Content Include="App_Code\GlobalHelper.cshtml" />
     <None Include="Properties\PublishProfiles\SoteriaSafetyApp - Web Deploy.pubxml" />
     <None Include="Properties\PublishProfiles\SoteriaTVApp20181019123238 - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
@@ -1117,6 +1118,7 @@
     <Content Include="Views\Dashboard\Dashboard.cshtml" />
     <Content Include="Views\Home\Login.cshtml" />
     <Content Include="Views\Shared\_LayoutMain.cshtml" />
+    <Content Include="Views\Dashboard\CheckpointLogActivities.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

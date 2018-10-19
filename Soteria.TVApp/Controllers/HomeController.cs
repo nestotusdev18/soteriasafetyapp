@@ -38,6 +38,7 @@ namespace Soteria.TVApp.Controllers
                 ViewBag.UserID = userSession.UserID;
                 ViewBag.SchoolID = userSession.SchoolID;
                 ViewBag.SchoolCode = userSession.SchoolCode;
+                ViewBag.UserSessionData = userSession;
                 RoleType RoleName = (RoleType)Enum.Parse(typeof(RoleType), userSession.RoleName);
                 ViewBag.RoleName = RoleName;
                 return View();
@@ -56,6 +57,14 @@ namespace Soteria.TVApp.Controllers
         public ActionResult Login()
         {
             return View();
+        }
+
+        [HttpGet]
+        [Route("app/logout")]
+        public ActionResult Logout()
+        {
+            FormAuthManager.LogoutNow();
+            return RedirectoSafeRoute("AppLogin");
         }
 
         [HttpPost]
@@ -89,7 +98,8 @@ namespace Soteria.TVApp.Controllers
                 Session["SchoolID"] = applicationUser.SchoolID;
                 Session["UserName"] = applicationUser.FirstName;
                 ViewBag.Title = applicationUser.SchoolName;
-                return RedirectoSafeRoute("AppDashboard");
+                //return RedirectoSafeRoute("AppDashboard");
+                return RedirectoSafeRoute("AppHome");
             }
             else
             {

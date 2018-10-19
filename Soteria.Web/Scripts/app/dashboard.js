@@ -32,22 +32,6 @@
         $('#hdnUserId').val(UserId);
     },
 	
-	 LoadTVApp: function LoadTVApp() {
-		/*
-        var ajaxResponse;
-		var UserId = parseInt($('#hdnUserId').val());
-		var SchoolId = parseInt($('#hdnSchoolId').val());
-		var SchoolCode = parseInt($('#hdnSchoolCode').val());
-        var params = {
-            UserId: UserId,
-			SchoolId: SchoolId,
-			SchoolCode: SchoolCode,
-        }
-        ajaxResponse = Global.InitiateAjaxRequest("/view/TVAppDashboard", "Post", params);
-        $('.mainView__content').html('');
-        $('.mainView__content').html(ajaxResponse.response);
-        $('#hdnUserId').val(UserId);*/
-    },
 	
 }
 

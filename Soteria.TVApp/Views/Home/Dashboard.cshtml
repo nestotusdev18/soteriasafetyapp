@@ -29,7 +29,7 @@
 		setInterval(function() {
 		 var vhub = $.connection.soteriaHub;
 		  $.connection.hub.start().done(function () {
-			vhub.server.send(@ViewBag.SchoolID);
+			vhub.server.send(@(Request.QueryString["SchoolId"]));
 		 });
 		}, 2000);
 
