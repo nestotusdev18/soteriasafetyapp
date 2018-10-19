@@ -1,0 +1,7 @@
+﻿@helper DashboardButton(string Activity, string Title, string Icon, string Color)
+    {
+        <a class="m-nav-grid__item" onclick=@Activity href="#">
+            <i class='@string.Format("m-nav-grid__icon {0} m--font-{1}", Icon, Color)'></i>
+            <span class="m-nav-grid__text">@Title</span>
+        </a>
+}

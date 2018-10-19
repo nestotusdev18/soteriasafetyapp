@@ -1,0 +1,393 @@
+-----------Exception Details on 10/15/2018 11:35:13 AM -----------------
+
+ 
+
+http://localhost:53050/ 
+ 
+ArgumentException 
+ 
+A route named 'AppLogin' could not be found in the route collection.
+Parameter name: name 
+ 
+
+ 
+    at System.Web.Routing.RouteCollection.GetVirtualPath(RequestContext requestContext, String name, RouteValueDictionary values)
+   at System.Web.Mvc.RouteCollectionExtensions.GetVirtualPathForArea(RouteCollection routes, RequestContext requestContext, String name, RouteValueDictionary values, Boolean& usingAreas)
+   at System.Web.Mvc.UrlHelper.GenerateUrl(String routeName, String actionName, String controllerName, RouteValueDictionary routeValues, RouteCollection routeCollection, RequestContext requestContext, Boolean includeImplicitMvcValues)
+   at System.Web.Mvc.RedirectToRouteResult.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__3()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__5(IAsyncResult asyncResult)
+
+ 
+
+--------------------------------*End*------------------------------------------
+
+ 
+
+-----------Exception Details on 10/15/2018 11:37:16 AM -----------------
+
+ 
+
+http://localhost:53050/ 
+ 
+ArgumentException 
+ 
+A route named 'AppLogin' could not be found in the route collection.
+Parameter name: name 
+ 
+
+ 
+    at System.Web.Routing.RouteCollection.GetVirtualPath(RequestContext requestContext, String name, RouteValueDictionary values)
+   at System.Web.Mvc.RouteCollectionExtensions.GetVirtualPathForArea(RouteCollection routes, RequestContext requestContext, String name, RouteValueDictionary values, Boolean& usingAreas)
+   at System.Web.Mvc.UrlHelper.GenerateUrl(String routeName, String actionName, String controllerName, RouteValueDictionary routeValues, RouteCollection routeCollection, RequestContext requestContext, Boolean includeImplicitMvcValues)
+   at System.Web.Mvc.RedirectToRouteResult.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__3()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__5(IAsyncResult asyncResult)
+
+ 
+
+--------------------------------*End*------------------------------------------
+
+ 
+
+-----------Exception Details on 10/15/2018 11:37:17 AM -----------------
+
+ 
+
+http://localhost:53050/ 
+ 
+ArgumentException 
+ 
+A route named 'AppLogin' could not be found in the route collection.
+Parameter name: name 
+ 
+
+ 
+    at System.Web.Routing.RouteCollection.GetVirtualPath(RequestContext requestContext, String name, RouteValueDictionary values)
+   at System.Web.Mvc.RouteCollectionExtensions.GetVirtualPathForArea(RouteCollection routes, RequestContext requestContext, String name, RouteValueDictionary values, Boolean& usingAreas)
+   at System.Web.Mvc.UrlHelper.GenerateUrl(String routeName, String actionName, String controllerName, RouteValueDictionary routeValues, RouteCollection routeCollection, RequestContext requestContext, Boolean includeImplicitMvcValues)
+   at System.Web.Mvc.RedirectToRouteResult.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__3()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__5(IAsyncResult asyncResult)
+
+ 
+
+--------------------------------*End*------------------------------------------
+
+ 
+
+-----------Exception Details on 10/15/2018 11:39:14 AM -----------------
+
+ 
+
+http://localhost:53050/ 
+ 
+ArgumentException 
+ 
+A route named 'AppLogin' could not be found in the route collection.
+Parameter name: name 
+ 
+
+ 
+    at System.Web.Routing.RouteCollection.GetVirtualPath(RequestContext requestContext, String name, RouteValueDictionary values)
+   at System.Web.Mvc.RouteCollectionExtensions.GetVirtualPathForArea(RouteCollection routes, RequestContext requestContext, String name, RouteValueDictionary values, Boolean& usingAreas)
+   at System.Web.Mvc.UrlHelper.GenerateUrl(String routeName, String actionName, String controllerName, RouteValueDictionary routeValues, RouteCollection routeCollection, RequestContext requestContext, Boolean includeImplicitMvcValues)
+   at System.Web.Mvc.RedirectToRouteResult.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__3()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__5(IAsyncResult asyncResult)
+
+ 
+
+--------------------------------*End*------------------------------------------
+
+ 
+
+-----------Exception Details on 10/15/2018 11:40:40 AM -----------------
+
+ 
+
+http://localhost:53050/ 
+ 
+ArgumentException 
+ 
+A route named 'AppLogin' could not be found in the route collection.
+Parameter name: name 
+ 
+
+ 
+    at System.Web.Routing.RouteCollection.GetVirtualPath(RequestContext requestContext, String name, RouteValueDictionary values)
+   at System.Web.Mvc.RouteCollectionExtensions.GetVirtualPathForArea(RouteCollection routes, RequestContext requestContext, String name, RouteValueDictionary values, Boolean& usingAreas)
+   at System.Web.Mvc.UrlHelper.GenerateUrl(String routeName, String actionName, String controllerName, RouteValueDictionary routeValues, RouteCollection routeCollection, RequestContext requestContext, Boolean includeImplicitMvcValues)
+   at System.Web.Mvc.RedirectToRouteResult.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__3()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__5(IAsyncResult asyncResult)
+
+ 
+
+--------------------------------*End*------------------------------------------
+
+ 
+
+-----------Exception Details on 10/15/2018 11:41:33 AM -----------------
+
+ 
+
+http://localhost:53050/ 
+ 
+ArgumentException 
+ 
+A route named 'AppLogin' could not be found in the route collection.
+Parameter name: name 
+ 
+
+ 
+    at System.Web.Routing.RouteCollection.GetVirtualPath(RequestContext requestContext, String name, RouteValueDictionary values)
+   at System.Web.Mvc.RouteCollectionExtensions.GetVirtualPathForArea(RouteCollection routes, RequestContext requestContext, String name, RouteValueDictionary values, Boolean& usingAreas)
+   at System.Web.Mvc.UrlHelper.GenerateUrl(String routeName, String actionName, String controllerName, RouteValueDictionary routeValues, RouteCollection routeCollection, RequestContext requestContext, Boolean includeImplicitMvcValues)
+   at System.Web.Mvc.RedirectToRouteResult.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__3()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__5(IAsyncResult asyncResult)
+
+ 
+
+--------------------------------*End*------------------------------------------
+
+ 
+
+-----------Exception Details on 10/15/2018 11:41:55 AM -----------------
+
+ 
+
+http://localhost:53050/ 
+ 
+ArgumentException 
+ 
+A route named 'AppLogin' could not be found in the route collection.
+Parameter name: name 
+ 
+
+ 
+    at System.Web.Routing.RouteCollection.GetVirtualPath(RequestContext requestContext, String name, RouteValueDictionary values)
+   at System.Web.Mvc.RouteCollectionExtensions.GetVirtualPathForArea(RouteCollection routes, RequestContext requestContext, String name, RouteValueDictionary values, Boolean& usingAreas)
+   at System.Web.Mvc.UrlHelper.GenerateUrl(String routeName, String actionName, String controllerName, RouteValueDictionary routeValues, RouteCollection routeCollection, RequestContext requestContext, Boolean includeImplicitMvcValues)
+   at System.Web.Mvc.RedirectToRouteResult.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__3()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__5(IAsyncResult asyncResult)
+
+ 
+
+--------------------------------*End*------------------------------------------
+
+ 
+
+-----------Exception Details on 10/15/2018 12:16:53 PM -----------------
+
+ 
+
+http://localhost:53050/ 
+ 
+ArgumentException 
+ 
+A route named 'AppLogin' could not be found in the route collection.
+Parameter name: name 
+ 
+
+ 
+    at System.Web.Routing.RouteCollection.GetVirtualPath(RequestContext requestContext, String name, RouteValueDictionary values)
+   at System.Web.Mvc.RouteCollectionExtensions.GetVirtualPathForArea(RouteCollection routes, RequestContext requestContext, String name, RouteValueDictionary values, Boolean& usingAreas)
+   at System.Web.Mvc.UrlHelper.GenerateUrl(String routeName, String actionName, String controllerName, RouteValueDictionary routeValues, RouteCollection routeCollection, RequestContext requestContext, Boolean includeImplicitMvcValues)
+   at System.Web.Mvc.RedirectToRouteResult.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__3()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__5(IAsyncResult asyncResult)
+
+ 
+
+--------------------------------*End*------------------------------------------
+
+ 
+
+-----------Exception Details on 10/15/2018 12:18:16 PM -----------------
+
+ 
+
+http://localhost:53050/ 
+ 
+ArgumentException 
+ 
+A route named 'AppLogin' could not be found in the route collection.
+Parameter name: name 
+ 
+
+ 
+    at System.Web.Routing.RouteCollection.GetVirtualPath(RequestContext requestContext, String name, RouteValueDictionary values)
+   at System.Web.Mvc.RouteCollectionExtensions.GetVirtualPathForArea(RouteCollection routes, RequestContext requestContext, String name, RouteValueDictionary values, Boolean& usingAreas)
+   at System.Web.Mvc.UrlHelper.GenerateUrl(String routeName, String actionName, String controllerName, RouteValueDictionary routeValues, RouteCollection routeCollection, RequestContext requestContext, Boolean includeImplicitMvcValues)
+   at System.Web.Mvc.RedirectToRouteResult.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__3()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__5(IAsyncResult asyncResult)
+
+ 
+
+--------------------------------*End*------------------------------------------
+
+ 
+
+-----------Exception Details on 10/15/2018 12:34:00 PM -----------------
+
+ 
+
+http://localhost:53050/ 
+ 
+HttpException 
+ 
+The "RenderBody" method has not been called for layout page "~/Views/Shared/_Layout.cshtml". 
+ 
+
+ 
+    at System.Web.WebPages.WebPageBase.VerifyRenderedBodyOrSections()
+   at System.Web.WebPages.WebPageBase.PopContext()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.WebPages.WebPageBase.<>c__DisplayClass40_0.<RenderPageCore>b__0(TextWriter writer)
+   at System.Web.WebPages.HelperResult.WriteTo(TextWriter writer)
+   at System.Web.WebPages.WebPageBase.Write(HelperResult result)
+   at System.Web.WebPages.WebPageBase.RenderSurrounding(String partialViewName, Action`1 body)
+   at System.Web.WebPages.WebPageBase.PopContext()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__3()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__5(IAsyncResult asyncResult)
+
+ 
+
+--------------------------------*End*------------------------------------------
+
+ 
+
+-----------Exception Details on 10/15/2018 12:34:01 PM -----------------
+
+ 
+
+http://localhost:53050/ 
+ 
+HttpException 
+ 
+The "RenderBody" method has not been called for layout page "~/Views/Shared/_Layout.cshtml". 
+ 
+
+ 
+    at System.Web.WebPages.WebPageBase.VerifyRenderedBodyOrSections()
+   at System.Web.WebPages.WebPageBase.PopContext()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.WebPages.WebPageBase.<>c__DisplayClass40_0.<RenderPageCore>b__0(TextWriter writer)
+   at System.Web.WebPages.HelperResult.WriteTo(TextWriter writer)
+   at System.Web.WebPages.WebPageBase.Write(HelperResult result)
+   at System.Web.WebPages.WebPageBase.RenderSurrounding(String partialViewName, Action`1 body)
+   at System.Web.WebPages.WebPageBase.PopContext()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__3()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__5(IAsyncResult asyncResult)
+
+ 
+
+--------------------------------*End*------------------------------------------
+
+ 
+
+-----------Exception Details on 10/15/2018 12:46:33 PM -----------------
+
+ 
+
+http://localhost:53050/ 
+ 
+HttpException 
+ 
+The "RenderBody" method has not been called for layout page "~/Views/Shared/_Layout.cshtml". 
+ 
+
+ 
+    at System.Web.WebPages.WebPageBase.VerifyRenderedBodyOrSections()
+   at System.Web.WebPages.WebPageBase.PopContext()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.WebPages.WebPageBase.<>c__DisplayClass40_0.<RenderPageCore>b__0(TextWriter writer)
+   at System.Web.WebPages.HelperResult.WriteTo(TextWriter writer)
+   at System.Web.WebPages.WebPageBase.Write(HelperResult result)
+   at System.Web.WebPages.WebPageBase.RenderSurrounding(String partialViewName, Action`1 body)
+   at System.Web.WebPages.WebPageBase.PopContext()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__3()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__5(IAsyncResult asyncResult)
+
+ 
+
+--------------------------------*End*------------------------------------------
+
+ 
+

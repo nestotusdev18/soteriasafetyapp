@@ -1,0 +1,133 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+	<link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&amp;subset=all" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css">
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body class="page-header-fixed page-sidebar-closed-hide-logo page-container-bg-solid page-content-white">
+  <div class="page-wrapper">
+            <!-- BEGIN HEADER -->
+            <div class="page-header navbar navbar-fixed-top">
+                <!-- BEGIN HEADER INNER -->
+                <div class="page-header-inner ">
+                    <!-- BEGIN LOGO -->
+                    <div class="page-logo">
+                        <a href="index-2.html">
+                            <img src="Content/assets/layouts/layout/img/logo_small.png" alt="logo" class="logo-default" />
+						</a>
+                        <div class="menu-toggler sidebar-toggler">
+                            <span></span>
+                        </div>
+                    </div>
+                    <!-- END LOGO -->
+                    <!-- BEGIN RESPONSIVE MENU TOGGLER -->
+                    <a href="javascript:;" class="menu-toggler responsive-toggler" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span></span>
+                    </a>
+                    <!-- END RESPONSIVE MENU TOGGLER -->
+                    <!-- BEGIN TOP NAVIGATION MENU -->
+                    <div class="top-menu">
+                        <ul class="nav navbar-nav pull-right">
+                            <!-- END TODO DROPDOWN -->
+                            <li class="dropdown dropdown-user">
+                                <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+                                    <img alt="" class="img-circle" src="Content/assets/layouts/layout/img/generic_avatar.png" />
+                                    <span class="username username-hide-on-mobile"> Admin </span>
+                                    <i class="fa fa-angle-down"></i>
+                                </a>
+                            </li>
+                            <!-- BEGIN QUICK SIDEBAR TOGGLER -->
+                            <li class="dropdown dropdown-quick-sidebar-toggler">
+                                <a href="javascript:;" class="dropdown-toggle">
+                                    <i class="icon-logout"></i>
+                                </a>
+                            </li>
+                            <!-- END QUICK SIDEBAR TOGGLER -->
+                        </ul>
+                    </div>
+                    <!-- END TOP NAVIGATION MENU -->
+                </div>
+                <!-- END HEADER INNER -->
+            </div>
+            <!-- END HEADER -->
+            <!-- BEGIN HEADER & CONTENT DIVIDER -->
+            <div class="clearfix"> </div>
+            <!-- END HEADER & CONTENT DIVIDER -->
+            <!-- BEGIN CONTAINER -->
+            <div class="page-container">
+                <!-- BEGIN SIDEBAR -->
+                <div class="page-sidebar-wrapper">
+                    <!-- BEGIN SIDEBAR -->
+                    <div class="page-sidebar navbar-collapse collapse">
+                        <!-- BEGIN SIDEBAR MENU -->
+                        <ul class="page-sidebar-menu  page-header-fixed page-sidebar-menu-light " data-keep-expanded="false" data-auto-scroll="true" data-slide-speed="200" style="padding-top: 20px">
+                            <!-- DOC: To remove the sidebar toggler from the sidebar you just need to completely remove the below "sidebar-toggler-wrapper" LI element -->
+                            <!-- BEGIN SIDEBAR TOGGLER BUTTON -->
+                            <li class="sidebar-toggler-wrapper hide">
+                                <div class="sidebar-toggler">
+                                    <span></span>
+                                </div>
+                            </li>
+                            <!-- END SIDEBAR TOGGLER BUTTON -->
+                            <!-- DOC: To remove the search box from the sidebar you just need to completely remove the below "sidebar-search-wrapper" LI element -->
+                  
+                            <!-- END SIDEBAR TOGGLER BUTTON -->
+                             <li class="nav-item start active">
+                                <a href="javascript:;" class="nav-link nav-toggle">
+                                    <i class="icon-home"></i>
+                                    <span class="title">Dashboard</span>
+                                    <span class="selected"></span>
+                                    <span class="arrow"></span>
+                                </a>
+                            </li>
+                        </ul>
+                        <!-- END SIDEBAR MENU -->
+                        <!-- END SIDEBAR MENU -->
+                    </div>
+                    <!-- END SIDEBAR -->
+                </div>
+                <!-- END SIDEBAR -->
+                <!-- BEGIN CONTENT -->
+                <div class="page-content-wrapper">
+                    <!-- BEGIN CONTENT BODY -->
+                    <div class="page-content mainView__content">
+						 @RenderBody()
+                    </div>
+                    <!-- END CONTENT BODY -->
+                </div>
+                <!-- END CONTENT -->
+            </div>
+            <!-- END CONTAINER -->
+			
+            <!-- BEGIN FOOTER -->
+            <div class="page-footer">
+                <div class="page-footer-inner"> @DateTime.Now.Year &copy; Soteria
+                </div>
+                <div class="scroll-to-top">
+                    <i class="icon-arrow-up"></i>
+                </div>
+            </div>
+            <!-- END FOOTER -->
+        </div>
+		
+	<input type="hidden" class="hdnHeaderToken" value="@ViewBag.HeaderToken" />
+	<input type="hidden" class="hdnUserId" id="hdnUserId" value="@ViewBag.UserID" />
+	<input type="hidden" class="hdnSchoolId" id="hdnSchoolId" value="@ViewBag.SchoolID" />
+	<input type="hidden" class="hdnSchoolCode" id="hdnSchoolCode" value="@ViewBag.SchoolCode" />
+
+		
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+	<script>
+        $(document).ready(function () {
+			Dashboard.LoadDashboard();
+        });
+    </script>
+</body>
+</html>
